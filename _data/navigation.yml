@@ -35,58 +35,58 @@
 
 
 # _data/navigation.yml
-# main:
-#   - title_zh: "简介"
-#     title_en: "About Me"
-#     url_zh: "/#about-me"
-#     url_en: "/en/#about-me"
-  
-#   - title_zh: "学历"
-#     title_en: "Education"
-#     url_zh: "/#-xl"
-#     url_en: "/en/#-xl"
-  
-#   - title_zh: "新闻"
-#     title_en: "News"
-#     url_zh: "/#-xw"
-#     url_en: "/en/#-xw"
-  
-#   - title_zh: "论文专利"
-#     title_en: "Publications"
-#     url_zh: "/#-lwzl"
-#     url_en: "/en/#-lwzl"
-  
-#   - title_zh: "荣誉奖项"
-#     title_en: "Awards & Honors"
-#     url_zh: "/#-ryjx"
-#     url_en: "/en/#-ryjx"
-  
-#   - title_zh: "学术会议"
-#     title_en: "Conferences"
-#     url_zh: "/#-xshy"
-#     url_en: "/en/#-xshy"
-
 main:
   - title_zh: "简介"
     title_en: "About Me"
-    url: "/#about-me"
+    url_zh: "/#about-me"
+    url_en: "/en/#about-me"
   
   - title_zh: "学历"
     title_en: "Education"
-    url: "/#-xl"
+    url_zh: "/#-xl"
+    url_en: "/en/#-xl"
   
   - title_zh: "新闻"
     title_en: "News"
-    url: "/#-xw"
+    url_zh: "/#-xw"
+    url_en: "/en/#-xw"
   
   - title_zh: "论文专利"
     title_en: "Publications"
-    url: "/#-lwzl"
+    url_zh: "/#-lwzl"
+    url_en: "/en/#-lwzl"
   
   - title_zh: "荣誉奖项"
     title_en: "Awards & Honors"
-    url: "/#-ryjx"
+    url_zh: "/#-ryjx"
+    url_en: "/en/#-ryjx"
   
   - title_zh: "学术会议"
     title_en: "Conferences"
-    url: "/#-xshy"
+    url_zh: "/#-xshy"
+    url_en: "/en/#-xshy"
+
+# main:
+#   - title_zh: "简介"
+#     title_en: "About Me"
+#     url: "/#about-me"
+  
+#   - title_zh: "学历"
+#     title_en: "Education"
+#     url: "/#-xl"
+  
+#   - title_zh: "新闻"
+#     title_en: "News"
+#     url: "/#-xw"
+  
+#   - title_zh: "论文专利"
+#     title_en: "Publications"
+#     url: "/#-lwzl"
+  
+#   - title_zh: "荣誉奖项"
+#     title_en: "Awards & Honors"
+#     url: "/#-ryjx"
+  
+#   - title_zh: "学术会议"
+#     title_en: "Conferences"
+#     url: "/#-xshy"
