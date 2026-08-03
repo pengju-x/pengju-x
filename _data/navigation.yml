@@ -19,16 +19,43 @@
 #     url: "/pengju-x/#-xshy"
 
 # main links
+# main:
+#   - title: "简介"
+#     url: "/#about-me"
+#   - title: "学历"
+#     url: "/#-xl"
+#   - title: "新闻"
+#     url: "/#-xw"
+#   - title: "论文专利"
+#     url: "/#-lwzl"
+#   - title: "荣誉奖项"
+#     url: "/#-ryjx"
+#   - title: "学术会议"
+#     url: "/#-xshy"
+
+
+# _data/navigation.yml
 main:
-  - title: "简介"
+  - title_zh: "简介"
+    title_en: "About Me"
     url: "/#about-me"
-  - title: "学历"
+  
+  - title_zh: "学历"
+    title_en: "Education"
     url: "/#-xl"
-  - title: "新闻"
+  
+  - title_zh: "新闻"
+    title_en: "News"
     url: "/#-xw"
-  - title: "论文专利"
+  
+  - title_zh: "论文专利"
+    title_en: "Publications"
     url: "/#-lwzl"
-  - title: "荣誉奖项"
+  
+  - title_zh: "荣誉奖项"
+    title_en: "Awards & Honors"
     url: "/#-ryjx"
-  - title: "学术会议"
+  
+  - title_zh: "学术会议"
+    title_en: "Conferences"
     url: "/#-xshy"
