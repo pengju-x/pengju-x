@@ -1,6 +1,7 @@
 ---
-permalink: /
-title: ""
+permalink: /zh-cn/
+title: "彭举 - 个人主页"
+lang: zh
 excerpt: ""
 author_profile: true
 redirect_from: 

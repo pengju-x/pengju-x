@@ -1,7 +1,8 @@
 ---
-permalink: /
-title: ""
+permalink: /en-cn/
+title: "PengJu - Personal Website"
 excerpt: ""
+lang: en
 author_profile: true
 redirect_from: 
   - /about/
