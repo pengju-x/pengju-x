@@ -55,27 +55,6 @@ redirect_from:
 - Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15 (20): 7362. (JCR:Q1; IF:3.748)  
 [[网页]](https://dx.doi.org/10.3390/ma15207362) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[下载]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf)
 
-
-### 中文
----
-
-- `唐健`，王荣彪，康宜华. 大提离漏磁无损检测方法. *无损检测*. 2022,44(4): 67. (核心期刊)  
-[[网页]](https://dx.doi.org/10.11973/wsjc202204000) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E5%94%90%E5%81%A5-2022-%E5%A4%A7%E6%8F%91%E7%A6%BB%E6%BC%8F%E7%A3%81%E6%97%A0%E6%8D%9F%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf) [[下载]](/pdf/%E5%94%90%E5%81%A5-2022-%E5%A4%A7%E6%8F%91%E7%A6%BB%E6%BC%8F%E7%A3%81%E6%97%A0%E6%8D%9F%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf)
-
-- 唐建波, 胡致远, 彭举*, 等. 融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法[J]. *测绘学报*, 2025, 54(01): 1001-1595. http://dx.doi.org//10.11947/j.AGCS.2025.20240101 (EI, 地理学会T1期刊)
-[[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/2025/(2025)_(测绘学报)_唐建波_融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法.pdf) [[下载]](/pdf/2025/(2025)_(测绘学报)_唐建波_融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法.pdf)
-
-- 刘敬一, 彭举*, 唐建波, 等. 融合多特征的轨迹数据自适应聚类方法[J]. *地球信息科学学报*, 2023, 25(07): 1363-1377. http://dx.doi.org//10.12082/dqxxkx.2023.230066 (EI, 地理学会T2期刊)
-[[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/融合多特征的轨迹数据自适应聚类方法.pdf) [[下载]](/pdf/融合多特征的轨迹数据自适应聚类方法.pdf)
-
-- 唐建波*, 夏何炎, 彭举, 等. 融合众源轨迹数据的户外徒步旅行导航路网地图构建[J]. *地球信息科学学报*, 2025, 27(01): 151-166. http://dx.doi.org/10.12082/dqxxkx.2025.240479 (EI, 地理学会T2期刊)
-[[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/2025/(2025)_(地球信息科学学报)_融合众源轨迹数据的户外徒步旅行导航路网地图构建_唐建波.pdf) [[下载]](/pdf/2025/(2025)_(地球信息科学学报)_融合众源轨迹数据的户外徒步旅行导航路网地图构建_唐建波.pdf)
-
-- 彭程, 唐建波, 彭举, 等. 基于自适应轨迹聚类的城市路网提取与更新方法[J]. *时空信息学报*, 2023, 30(02): 209-217.
-[[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/2023/(2023)_基于自适应轨迹聚类的城市路网提取与更新方法_彭程.pdf) [[下载]](/pdf/2023/(2023)_基于自适应轨迹聚类的城市路网提取与更新方法_彭程.pdf)
-
-- 唐建波, 丁俊杰, 张天宇, 杨晨, 彭举. 基于行人轨迹数据的步行导航路网地图构建方法[J]. *时空信息学报*, 2026, 1-14.
-
 - Ju Peng, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. https://doi.org/10.1080/13658816.2025.2478463. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
 [[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/2025/(2025)_(IJGIS)_Ju%20Peng_A%20two-stage%20method%20for%20detecting%20trajectory%20clusters%20of%20different%20densities%20with%20peak%20trajectories%20identification.pdf) [[下载]](/pdf/2025/(2025)_(IJGIS)_Ju%20Peng_A%20two-stage%20method%20for%20detecting%20trajectory%20clusters%20of%20different%20densities%20with%20peak%20trajectories%20identification.pdf)
 
@@ -102,6 +81,28 @@ redirect_from:
 
 - Jingyi Liu, Zhiyuan Hu*, Jianbo Tang, Ju Peng, Qi Guo, Xinyu Pei. STACS: a spatiotemporal adaptive clustering–segmentation algorithm for fishing activity recognition[J]. *Applied Science*, 2025, 15(16): 9107. (SCI, JCR Q2, IF=2.5)
 [[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/2025/(2025)_(applied%20sciences)_STACS%20A%20Spatiotemporal%20Adaptive%20Clustering–Segmentation%20Algorithm%20for%20Fishing%20Activity%20Recognition.pdf) [[下载]](/pdf/2025/(2025)_(applied%20sciences)_STACS%20A%20Spatiotemporal%20Adaptive%20Clustering–Segmentation%20Algorithm%20for%20Fishing%20Activity%20Recognition.pdf)
+
+
+### 中文
+---
+
+- `唐健`，王荣彪，康宜华. 大提离漏磁无损检测方法. *无损检测*. 2022,44(4): 67. (核心期刊)  
+[[网页]](https://dx.doi.org/10.11973/wsjc202204000) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E5%94%90%E5%81%A5-2022-%E5%A4%A7%E6%8F%91%E7%A6%BB%E6%BC%8F%E7%A3%81%E6%97%A0%E6%8D%9F%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf) [[下载]](/pdf/%E5%94%90%E5%81%A5-2022-%E5%A4%A7%E6%8F%91%E7%A6%BB%E6%BC%8F%E7%A3%81%E6%97%A0%E6%8D%9F%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf)
+
+- 唐建波, 胡致远, 彭举*, 等. 融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法[J]. *测绘学报*, 2025, 54(01): 1001-1595. http://dx.doi.org//10.11947/j.AGCS.2025.20240101 (EI, 地理学会T1期刊)
+[[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/2025/(2025)_(测绘学报)_唐建波_融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法.pdf) [[下载]](/pdf/2025/(2025)_(测绘学报)_唐建波_融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法.pdf)
+
+- 刘敬一, 彭举*, 唐建波, 等. 融合多特征的轨迹数据自适应聚类方法[J]. *地球信息科学学报*, 2023, 25(07): 1363-1377. http://dx.doi.org//10.12082/dqxxkx.2023.230066 (EI, 地理学会T2期刊)
+[[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/融合多特征的轨迹数据自适应聚类方法.pdf) [[下载]](/pdf/融合多特征的轨迹数据自适应聚类方法.pdf)
+
+- 唐建波*, 夏何炎, 彭举, 等. 融合众源轨迹数据的户外徒步旅行导航路网地图构建[J]. *地球信息科学学报*, 2025, 27(01): 151-166. http://dx.doi.org/10.12082/dqxxkx.2025.240479 (EI, 地理学会T2期刊)
+[[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/2025/(2025)_(地球信息科学学报)_融合众源轨迹数据的户外徒步旅行导航路网地图构建_唐建波.pdf) [[下载]](/pdf/2025/(2025)_(地球信息科学学报)_融合众源轨迹数据的户外徒步旅行导航路网地图构建_唐建波.pdf)
+
+- 彭程, 唐建波, 彭举, 等. 基于自适应轨迹聚类的城市路网提取与更新方法[J]. *时空信息学报*, 2023, 30(02): 209-217.
+[[预览]](https://github.com/pengju-x/pengju-x.github.io/blob/main/pdf/2023/(2023)_基于自适应轨迹聚类的城市路网提取与更新方法_彭程.pdf) [[下载]](/pdf/2023/(2023)_基于自适应轨迹聚类的城市路网提取与更新方法_彭程.pdf)
+
+- 唐建波, 丁俊杰, 张天宇, 杨晨, 彭举. 基于行人轨迹数据的步行导航路网地图构建方法[J]. *时空信息学报*, 2026, 1-14.
+
 
 ### 专利
 ---
