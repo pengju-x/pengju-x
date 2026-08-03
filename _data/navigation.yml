@@ -6,6 +6,9 @@ main:
   - title: "学历"
     url: "/pengju-x/#-xl"
 
+  - title: "新闻"
+    url: "/pengju-x/#-xw"
+
   - title: "论文专利"
     url: "/pengju-x/#-lwzl"
 

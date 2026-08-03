@@ -26,7 +26,8 @@ redirect_from:
 - 人类移动性
 - 流行病
 - 健康地理
-  
+
+
 
 
 <span class='anchor' id='-xl'></span>
@@ -35,6 +36,14 @@ redirect_from:
 - *2021.09 - 2026.06*, <a href="https://www.csu.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> 中南大学 地球科学与信息物理学院, 湖南长沙, 推免直博 
 - *2017.09 - 2021.06*, <a href="https://www.csu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 中南大学 地球科学与信息物理学院, 湖南长沙, 本科
  
+
+<span class='anchor' id='-xw'></span>
+
+# 🎓 新闻
+
+- 2025.09.03: 🎉Congratulations! One paper was accepted by JGSA 2025!
+
+
 <span class='anchor' id='-lwzl'></span>
 
 # 📝 论文专利
@@ -55,33 +64,33 @@ redirect_from:
 </div>
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
-[[网页]](https://doi.org/10.1080/13658816.2025.2478463)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/(2025)_(IJGIS)_Ju%20Peng_A%20two-stage%20method%20for%20detecting%20trajectory%20clusters%20of%20different%20densities%20with%20peak%20trajectories%20identification.pdf) [[下载]](/pengju-x/pdf/2025/(2025)_(IJGIS)_Ju%20Peng_A%20two-stage%20method%20for%20detecting%20trajectory%20clusters%20of%20different%20densities%20with%20peak%20trajectories%20identification.pdf)
+[[网页]](https://doi.org/10.1080/13658816.2025.2478463)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf) [[下载]](/pengju-x/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf)
 
 - `Ju Peng`, Min Deng, Jianbo Tang*, et al. A movement-aware measure for trajectory similarity and its application for ride-sharing path extraction in a road network[J]. *International Journal of Geographical Information Science*, 2024, 38(9): 1703-1727. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)[[网页]](https://doi.org/10.1080/13658816.2024.235369)
-[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/(2024)_(IJGIS)_Ju%20Peng_A%20movement-aware%20measure%20for%20trajectory%20similarity%20and%20its%20application%20for%20ride-sharing%20path%20extraction%20in%20a%20road%20network.pdf) [[下载]](/pengju-x/pdf/2024/(2024)_(IJGIS)_Ju%20Peng_A%20movement-aware%20measure%20for%20trajectory%20similarity%20and%20its%20application%20for%20ride-sharing%20path%20extraction%20in%20a%20road%20network.pdf)
+[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/2024_IJGIS_A_movement-aware_measure_for_trajectory_similarity_and_its_application_for_ride-sharing_path_extraction_in_a_road_network.pdf) [[下载]](/pengju-x/pdf/2024/2024_IJGIS_A_movement-aware_measure_for_trajectory_similarity_and_its_application_for_ride-sharing_path_extraction_in_a_road_network.pdf)
 
 - Jianbo Tang, Min Deng, `Ju Peng*`, et al. How to describe spatiotemporal patterns of moving objects: A new classification framework[J]. *International Journal of Geographical Information Science*, 2025: 1-43.  (SCI, JCR Q1, 中科院1区TOP, IF=5.1)[[网页]](https://doi.org/10.1080/13658816.2025.2548819)
-[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/(2025)_(IJGIS)_Jianbo%20Tang_How%20to%20describe%20spatiotemporal%20patterns%20of%20moving%20objects%20%20a%20new%20classification%20framework.pdf) [[下载]](/pengju-x/pdf/2025/(2025)_(IJGIS)_Jianbo%20Tang_How%20to%20describe%20spatiotemporal%20patterns%20of%20moving%20objects%20%20a%20new%20classification%20framework.pdf)
+[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf) [[下载]](/pengju-x/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf)
 
 - Jianbo Tang, Min Deng, `Ju Peng`, et al. Automatic road network selection method considering functional semantic features of roads with graph convolutional networks[J]. *International Journal of Geographical Information Science*, 2024, 38(11): 2403-2432. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
-[[网页]](https://doi.org/10.1080/13658816.2024.238719)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/(2024)_(IJGIS)_Jianbo%20Tang_Automatic%20road%20network%20selection%20method%20considering%20functional%20semantic%20features%20of%20roads%20with%20graph%20convolutional%20networks.pdf) [[下载]](/pengju-x/pdf/2024/(2024)_(IJGIS)_Jianbo%20Tang_Automatic%20road%20network%20selection%20method%20considering%20functional%20semantic%20features%20of%20roads%20with%20graph%20convolutional%20networks.pdf)
+[[网页]](https://doi.org/10.1080/13658816.2024.238719)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/2024_IJGIS_Automatic_road_network_selection_method_considering_functional_semantic_features_of_roads_with_graph_convolutional_networks.pdf) [[下载]](/pengju-x/pdf/2024/2024_IJGIS_Automatic_road_network_selection_method_considering_functional_semantic_features_of_roads_with_graph_convolutional_networks.pdf)
 
 - Min Deng (导师一作), `Ju Peng`, Jianbo Tang*, et al. Spatio-temporal Pattern Mining of Moving Objects: Concepts, Methods, and Challenges[J]. *Journal of Geovisualization and Spatial Analysis*, 2025, 9(2): 1-32. (ESCI, JCR Q1, 中科院1区TOP, IF=6.8)
 [[网页]](https://doi.org/10.1007/s41651-025-00236-1)
-[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/(2025)_(JGSA)_Min%20Deng_Spatiotemporal%20Pattern%20Mining%20of%20Moving%20Objects-%20Concepts,%20Methods,%20and%20Challenges.pdf) [[下载]](/pengju-x/pdf/2025/(2025)_(JGSA)_Min%20Deng_Spatiotemporal%20Pattern%20Mining%20of%20Moving%20Objects-%20Concepts,%20Methods,%20and%20Challenges.pdf)
+[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_JGSA_Spatiotemporal_Pattern_Mining_of_Moving_Objects_Concepts_Methods_and_Challenges.pdf) [[下载]](/pengju-x/pdf/2025/2025_JGSA_Spatiotemporal_Pattern_Mining_of_Moving_Objects_Concepts_Methods_and_Challenges.pdf)
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. Discovering spatiotemporal patterns of human outdoor activities with crowdsourced trajectory data[J]. *Geo-spatial Information Science*, 2025, 28(3): 1214-1236. (SCI, JCR Q1, 中科院1区, IF=5.5)
-[[网页]](https://doi.org/10.1080/10095020.2025.2506772)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/(2025)_(GSIS)_Ju%20Peng_Discovering%20spatiotemporal%20patterns%20of%20human%20outdoor%20activities%20with%20crowdsourced%20trajectory%20data.pdf) [[下载]](/pengju-x/pdf/2025/(2025)_(GSIS)_Ju%20Peng_Discovering%20spatiotemporal%20patterns%20of%20human%20outdoor%20activities%20with%20crowdsourced%20trajectory%20data.pdf)
+[[网页]](https://doi.org/10.1080/10095020.2025.2506772)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_GSIS_Discovering_spatiotemporal_patterns_of_human_outdoor_activities_with_crowdsourced_trajectory_data.pdf) [[下载]](/pengju-x/pdf/2025/2025_GSIS_Discovering_spatiotemporal_patterns_of_human_outdoor_activities_with_crowdsourced_trajectory_data.pdf)
 
 - `Ju Peng`, Huimin Liu, Jianbo Tang*, et al. Exploring crowd travel demands based on the characteristics of spatiotemporal interaction between urban functional zones[J]. *ISPRS International Journal of Geo-Information*, 2023, 12(6): 225. (SCI, JCR Q2, 中科院3区, IF=2.8)
-[[网页]](https://doi.org/10.3390/ijgi12060225)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2023/(2023)_(IJGI)_Ju%20Peng_Exploring%20Crowd%20Travel%20Demands%20Based%20on%20the%20Characteristic.pdf) [[下载]](/pengju-x/pdf/2023/(2023)_(IJGI)_Ju%20Peng_Exploring%20Crowd%20Travel%20Demands%20Based%20on%20the%20Characteristic.pdf)
+[[网页]](https://doi.org/10.3390/ijgi12060225)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2023/2023_IJGI_Exploring_Crowd_Travel_Demands_Based_on_the_Characteristic.pdf) [[下载]](/pengju-x/pdf/2023/2023_IJGI_Exploring_Crowd_Travel_Demands_Based_on_the_Characteristic.pdf)
 
 - Jianbo Tang, Yuxin Zhao, Xuexi Yang*, Min Deng, Huimin Liu, Chen Ding, `Ju Peng`, Xiaoming Mei. Statistical and density-based clustering of geographical flows for crowd movement patterns recognition[J]. *Applied Soft Computing*, 2024, 163: 111912.  (SCI, JCR Q1, 中科院2区TOP, IF=6.6)
 [[网页]](https://doi.org/10.1016/j.asoc.2024.111912)
-[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/(2024)_(ASOC)_Jianbo%20Tang_Statistical%20and%20density-based%20clustering%20of%20geographical%20flows%20for%20crowd%20movement%20patterns%20recognition.pdf) [[下载]](/pengju-x/pdf/2024/(2024)_(ASOC)_Jianbo%20Tang_Statistical%20and%20density-based%20clustering%20of%20geographical%20flows%20for%20crowd%20movement%20patterns%20recognition.pdf)
+[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/2024_ASOC_Statistical_and_density-based_clustering_of_geographical_flows_for_crowd_movement_patterns_recognition.pdf) [[下载]](/pengju-x/pdf/2024/2024_ASOC_Statistical_and_density-based_clustering_of_geographical_flows_for_crowd_movement_patterns_recognition.pdf)
 
 - Jingyi Liu, Zhiyuan Hu*, Jianbo Tang, `Ju Peng`, Qi Guo, Xinyu Pei. STACS: a spatiotemporal adaptive clustering–segmentation algorithm for fishing activity recognition[J]. *Applied Science*, 2025, 15(16): 9107. (SCI, JCR Q2, IF=2.5)
-[[网页]](https://doi.org/10.3390/app15169107)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/(2025)_(applied%20sciences)_STACS%20A%20Spatiotemporal%20Adaptive%20Clustering–Segmentation%20Algorithm%20for%20Fishing%20Activity%20Recognition.pdf) [[下载]](/pengju-x/pdf/2025/(2025)_(applied%20sciences)_STACS%20A%20Spatiotemporal%20Adaptive%20Clustering–Segmentation%20Algorithm%20for%20Fishing%20Activity%20Recognition.pdf)
+[[网页]](https://doi.org/10.3390/app15169107)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_AppliedSciences_STACS_a_spatiotemporal_adaptive_clustering_segmentation_algorithm_for_fishing_activity_recognition.pdf) [[下载]](/pengju-x/pdf/2025/2025_AppliedSciences_STACS_a_spatiotemporal_adaptive_clustering_segmentation_algorithm_for_fishing_activity_recognition.pdf)
 
 
 ### 中文
@@ -89,19 +98,19 @@ redirect_from:
 
 - 唐建波, 胡致远, `彭举*`, 等. 融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法[J]. *测绘学报*, 2025, 54(01): 1001-1595. (EI, 地理学会T1期刊)
 [[网页]](http://dx.doi.org//10.11947/j.AGCS.2025.20240101)
-[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/(2025)_(测绘学报)_唐建波_融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法.pdf) [[下载]](/pengju-x/pdf/2025/(2025)_(测绘学报)_唐建波_融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法.pdf)
+[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_测绘学报_融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法.pdf) [[下载]](/pengju-x/pdf/2025/2025_测绘学报_融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法.pdf)
 
 - 刘敬一, `彭举*`, 唐建波, 等. 融合多特征的轨迹数据自适应聚类方法[J]. *地球信息科学学报*, 2023, 25(07): 1363-1377. (EI, 地理学会T2期刊)
 [[网页]](http://dx.doi.org//10.12082/dqxxkx.2023.230066)
-[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/融合多特征的轨迹数据自适应聚类方法.pdf) [[下载]](/pengju-x/pdf/融合多特征的轨迹数据自适应聚类方法.pdf)
+[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2023/2023_地球信息科学学报_融合多特征的轨迹数据自适应聚类方法.pdf) [[下载]](/pengju-x/pdf/2023/2023_地球信息科学学报_融合多特征的轨迹数据自适应聚类方法.pdf)
 
 - 唐建波*, 夏何炎, `彭举`, 等. 融合众源轨迹数据的户外徒步旅行导航路网地图构建[J]. *地球信息科学学报*, 2025, 27(01): 151-166.  (EI, 地理学会T2期刊)
 [[网页]](http://dx.doi.org/10.12082/dqxxkx.2025.240479)
-[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/(2025)_(地球信息科学学报)_融合众源轨迹数据的户外徒步旅行导航路网地图构建_唐建波.pdf) [[下载]](/pengju-x/pdf/2025/(2025)_(地球信息科学学报)_融合众源轨迹数据的户外徒步旅行导航路网地图构建_唐建波.pdf)
+[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_地球信息科学学报_融合众源轨迹数据的户外徒步旅行导航路网地图构建.pdf) [[下载]](/pengju-x/pdf/2025/2025_地球信息科学学报_融合众源轨迹数据的户外徒步旅行导航路网地图构建.pdf)
 
 - 彭程, 唐建波, `彭举`, 等. 基于自适应轨迹聚类的城市路网提取与更新方法[J]. *时空信息学报*, 2023, 30(02): 209-217.
 [[网页]]()
-[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2023/(2023)_基于自适应轨迹聚类的城市路网提取与更新方法_彭程.pdf) [[下载]](/pengju-x/pdf/2023/(2023)_基于自适应轨迹聚类的城市路网提取与更新方法_彭程.pdf)
+[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2023/2023_时空信息学报_基于自适应轨迹聚类的城市路网提取与更新方法.pdf) [[下载]](/pengju-x/pdf/2023/2023_时空信息学报_基于自适应轨迹聚类的城市路网提取与更新方法.pdf)
 
 - 唐建波, 丁俊杰, 张天宇, 杨晨, `彭举`. 基于行人轨迹数据的步行导航路网地图构建方法[J]. *时空信息学报*, 2026, 1-14. 
 
