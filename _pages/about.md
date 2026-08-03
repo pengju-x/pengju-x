@@ -1,5 +1,5 @@
 ---
-permalink: /zh-cn/
+permalink: /zh/
 title: "彭举 - 个人主页"
 lang: zh
 excerpt: ""

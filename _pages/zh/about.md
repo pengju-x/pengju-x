@@ -1,8 +1,8 @@
 ---
-permalink: /en-cn/
-title: "PengJu - Personal Website"
+permalink: /zh/
+title: "彭举 - 个人主页"
+lang: zh
 excerpt: ""
-lang: en
 author_profile: true
 redirect_from: 
   - /about/
