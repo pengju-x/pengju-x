@@ -39,7 +39,7 @@ redirect_from:
 
 <span class='anchor' id='-xw'></span>
 
-# 🎓 新闻
+# 🔥 新闻
 
 - 2025.09.03: 🎉Congratulations! One paper was accepted by JGSA 2025!
 
@@ -58,7 +58,7 @@ redirect_from:
 [[网页]](https://dx.doi.org/10.1016/j.sna.2021.113091) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2021-A%20novel%20magnetic%20flux%20leakage%20method%20based%20on%20the%20ferromagnetic%20lift-off%20layer.pdf) [[下载]](/pdf/TangJ-2021-A%20novel%20magnetic%20flux%20leakage%20method%20based%20on%20the%20ferromagnetic%20lift-off%20layer.pdf)
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
-[[网页]](https://doi.org/10.1080/13658816.2025.2478463)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/(2025)_(IJGIS)_Ju%20Peng_A%20two-stage%20method%20for%20detecting%20trajectory%20clusters%20of%20different%20densities%20with%20peak%20trajectories%20identification.pdf) [[下载]](/pengju-x/pdf/2025/(2025)_(IJGIS)_Ju%20Peng_A%20two-stage%20method%20for%20detecting%20trajectory%20clusters%20of%20different%20densities%20with%20peak%20trajectories%20identification.pdf)
+[[网页]](https://doi.org/10.1080/13658816.2025.2478463)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf) [[下载]](/pengju-x/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf)
 
 </div>
 </div>
