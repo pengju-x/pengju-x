@@ -7,8 +7,8 @@
 
 # Site Settings
 # domain: https://pengju-x.github.io/pengju-x
-url: https://pengju-x.github.io
-baseurl: /pengju-x
+# url: https://pengju-x.github.io
+# baseurl: /pengju-x
 title                    : "PengJu (彭举)"
 description              : "Spatiotemporal data mining "
 repository               : "pengju-x/pengju.github.io"
