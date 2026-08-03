@@ -1,19 +1,17 @@
 # main links links
 main:
   - title: "简介"
-    url: "/zh-cn/#about-me"
+    url: "/pengju-x/#about-me"
 
   - title: "学历"
-    url: "/zh-cn/#-xl"
+    url: "/pengju-x/#-xl"
 
   - title: "论文专利"
-    url: "/zh-cn/#-lwzl"
+    url: "/pengju-x/#-lwzl"
 
   - title: "荣誉奖项"
-    url: "/zh-cn/#-ryjx"
+    url: "/pengju-x/#-ryjx"
 
   - title: "学术会议"
-    url: "/zh-cn/#-xshy"
+    url: "/pengju-x/#-xshy"
 
-  - title: "工作实习"
-    url: "/zh-cn/#-gzsx"
