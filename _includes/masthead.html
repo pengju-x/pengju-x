@@ -9,13 +9,15 @@
           <!-- 语言切换按钮 -->
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
             {% if page.lang == "en" %}
-              <a href="{{ site.baseurl }}/" target="_self">
+              <!-- <a href="{{ site.baseurl }}/" target="_self"> -->
+                 <a href="{{ domain }}/" target="_self"></a>
                 <!-- <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a> -->
                 <img class="svg" src="/images/zh.svg" width="20pt"> 
                 中文
               </a>
             {% else %}
-              <a href="{{ site.baseurl }}/en/" target="_self">
+              <!-- <a href="{{ site.baseurl }}/en/" target="_self"> -->
+                <a href="{{ domain }}/en/" target="_self"></a>
                 <img class="svg" src="/images/en.svg" width="20pt"> 
                 English
               </a>
@@ -25,12 +27,18 @@
           <!-- 导航菜单 -->
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item">
-              {% if page.lang == "en" %}
+              <!-- {% if page.lang == "en" %}
                 <a href="{{ link.url }}">{{ link.title_en }}</a>
               {% else %}
                 <a href="{{ link.url }}">{{ link.title_zh }}</a>
+              {% endif %} -->
+              {% if page.lang == "en" %}
+              <a href="{{ domain }}{{ link.url }}">{{ link.title_en }}</a>
+              {% else %}
+              <a href="{{ domain }}{{ link.url }}">{{ link.title_zh }}</a>
               {% endif %}
             </li>
+            
           {% endfor %}
           
         </ul>
