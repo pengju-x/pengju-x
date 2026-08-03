@@ -49,7 +49,6 @@ redirect_from:
 # 📝 论文专利
 
 ### 英文
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sens. Actuators Phys. 2021</div><img src='images/IJGIS-2025-ATSTC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -94,7 +93,6 @@ redirect_from:
 
 
 ### 中文
----
 
 - 唐建波, 胡致远, `彭举*`, 等. 融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法[J]. *测绘学报*, 2025, 54(01): 1001-1595. (EI, 地理学会T1期刊)
 [[网页]](http://dx.doi.org//10.11947/j.AGCS.2025.20240101)
@@ -116,7 +114,6 @@ redirect_from:
 
 
 ### 专利
----
 
 - `彭举`, 唐建波, 胡致远, 等. 一种基于移动目标轨迹的运动模式挖掘方法及相关设备[P]. 中国专利: ZL20251 0216690.2 [P].2025-05-16. (已授权) 
 - `彭举`, 唐建波, 胡致远, 等. 一种基于峰值轨迹的轨迹聚类方法、装置、设备及介质[P]. 中国专利: ZL202311636437.X. [P]. 2024-03-19. (已授权)
