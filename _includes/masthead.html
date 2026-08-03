@@ -26,7 +26,8 @@
               {% if page.lang == "en" %}
                 <a href="{{ domain }}{{ link.url_en}}">{{ link.title_en }}</a>
               {% else %}
-                <a href="{{ domain }}{{ link.url_zh }}">{{ link.title_zh }}</a>
+                <!-- <a href="{{ domain }}{{ link.url_zh }}">{{ link.title_zh }}</a> -->
+                 <a href="{{ site.baseurl }}{{ link.url_zh }}">{{ link.title_zh }}</a>
                 <!-- <a href="{{ domain }}/en{{ link.url }}">{{ link.title_en }}</a> -->
                  <!-- <a href="{{ domain }}/en{{ link.url }}">{{ link.title_en }}</a> -->
               <!-- {% else %} -->
