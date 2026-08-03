@@ -24,9 +24,9 @@
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item">
               {% if page.lang == "en" %}
-                <a href="{{ domain }}{{ link.url }}">{{ link.title_en }}</a>
+                <a href="{{ domain }}{{ link.url | relative_url }}">{{ link.title_en }}</a>
               {% else %}
-                <a href="{{ domain }}{{ link.url }}">{{ link.title_zh }}</a>
+                <a href="{{ domain }}{{ link.url | relative_url }}">{{ link.title_zh }}</a>
               {% endif %}
             </li>
           {% endfor %}
