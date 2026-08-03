@@ -29,7 +29,6 @@ redirect_from:
 
 
 
-
 <span class='anchor' id='-xl'></span>
 
 # 🎓 学历
