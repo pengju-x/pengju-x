@@ -28,7 +28,7 @@
               <!-- {% else %} -->
                 <!-- <a href="{{ domain }}{{ link.url_zh | relative_url }}">{{ link.title_zh }}</a> -->
                 <!-- <a href="{{ domain }}/en{{ link.url }}">{{ link.title_en }}</a> -->
-                <a href="{{ '/en' | append: link.url | relative_url }}">{{ link.title_en }}</a>
+                 <a href="{{ domain }}/en{{ link.url }}">{{ link.title_en }}</a>
               {% else %}
                 <a href="{{ domain }}{{ link.url}}">{{ link.title_zh }}</a>
               {% endif %}
