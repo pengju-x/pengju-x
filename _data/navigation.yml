@@ -72,6 +72,18 @@ main:
     # url_en: "/en/#-xshy"
     url_en: "#-xshy"
 
+  - title_zh: "科研项目"
+    title_en: "Research Projects"
+    url_zh: "/#-kyxm"
+    # url_en: "/en/#-kyxm"
+    url_en: "#-kyxm"
+
+  - title_zh: "简历"
+    title_en: "CV"
+    url_zh: "/pdf/myCVs/0730-En-CV- Ju Peng.pdf"
+    # url_en: "/en/#-kytm"
+    url_en: "/pdf/myCVs/0730-En-CV- Ju Peng.pdf"
+
 # main:
 #   - title_zh: "简介"
 #     title_en: "About Me"

@@ -151,4 +151,9 @@ My research interests include:
 -	*2021.10.29-31* The 9th GIS University Forum (Changsha, China), Attendee
 -	*2021.05.18-19* The 10th Global Geographic Information Developer Conference (Changsha, China), Attendee
 
+<span class='anchor' id='-kyxm'></span>
 
+# 📚 科研项目
+- *Principal Investigator (PI)*, Hunan Provincial Graduate Research Innovation Project: Construction and intelligent recognition of movement patterns and behavior semantics from moving objects trajectories (No. CX20220193, 2022–2024)
+I was responsible for project application, design, implementation, and publications.
+- *Principal Investigator (PI*, CSU Graduate Independent Exploration Innovation Project: Same as above (No. 2022zzts105, 2022–2024)
