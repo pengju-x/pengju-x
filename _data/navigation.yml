@@ -46,7 +46,7 @@ main:
     title_en: "Education"
     url_zh: "/#-xl"
     # url_en: "/en/#-xl"
-    url_en: "/#-xl"
+    url_en: "#-xl"
   
   - title_zh: "新闻"
     title_en: "News"
