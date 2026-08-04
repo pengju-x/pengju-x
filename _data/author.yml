@@ -1,0 +1,12 @@
+# _data/author.yml
+zh:
+  name: "彭举"
+  bio: "华东师范大学"
+  location: "上海"
+  employer: "华东师范大学"
+  
+en:
+  name: "Ju Peng"
+  bio: "East China Normal University"
+  location: "Shanghai, China"
+  employer: "East China Normal University"

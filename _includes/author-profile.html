@@ -9,8 +9,23 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <!-- <h3 class="author__name">{{ author.name }}</h3> -->
+    <h3 class="author__name">
+      {% if page.lang == "en" %}
+        {{ data.author.en.name }}
+      {% else %}
+        {{ data.author.zh.name }}
+      {% endif %}
+    </h3>
+    <!-- {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %} -->
+    {% if author.bio %}
+    <p class="author__bio">
+      {% if page.lang == "en" %}
+        {{ data.author.en.bio }}
+      {% else %}
+        {{ data.author.zh.bio }}
+      {% endif %}
+    </p>
   </div>
 
   <div class="author__urls-wrapper">
