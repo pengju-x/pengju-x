@@ -53,7 +53,8 @@ permalink: /blog/
       <h2 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
-      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      <!-- <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p> -->
+      <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
       {% if post.categories %}
         <span class="post-categories">📂 {{ post.categories | join: ", " }}</span>
       {% endif %}
