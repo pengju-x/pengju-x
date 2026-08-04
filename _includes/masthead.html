@@ -27,12 +27,12 @@
             {% if page.lang == "en" %}
               <!-- <a href="{{ site.baseurl }}{{ link.url_en }}">{{ link.title_en }}</a> -->
                {% if link.title_en == "CV" %}
-                <a href="{{ site.baseurl }}{{ link.url_en }}" download>{{ link.title_en }}</a>
+                <a href="/pengju-x/pdf/myCVs/0730-En-CV- Ju Peng.pdf" download>{{ link.title_en }}</a>
               {% else %}
                 <a href="{{ link.url_en }}">{{ link.title_en }}</a>
             {% else %}
               {% if link.title_zh == "简历" %}
-                <a href="{{ site.baseurl }}{{ link.url_zh }}" download>{{ link.title_zh }}</a>
+                <a href="/pengju-x/pdf/myCVs/0730-Zh-CV- Ju Peng.pdf" download>{{ link.title_zh }}</a>
               {% else %}
                 <a href="{{ site.baseurl }}{{ link.url_zh }}">{{ link.title_zh }}</a>
             {% endif %}
