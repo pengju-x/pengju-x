@@ -39,6 +39,25 @@ layout: compress
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
                 {{ page.date | date: "%Y年%m月%d日" }}
               </span>
+              <!-- 👇 新增：阅读时间 -->
+              <span class="post__read-time">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+                <span id="read-time-display">计算中...</span>
+              </span>
+
+              <!-- 👇 新增：访问量 -->
+              <span class="post__views">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+                <span id="view-count-display">加载中...</span>
+              </span>
+            
+
               {% if page.tags %}
                 <span class="post__tags">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg>
@@ -80,6 +99,71 @@ layout: compress
           </div>
 
         </div>
+        
+
+        <script>
+          (function() {
+            // ===== 阅读时间计算 =====
+            function calculateReadTime() {
+              // 获取文章正文内容
+              const content = document.querySelector('.post__content');
+              if (!content) return;
+              
+              // 获取纯文本内容（去掉 HTML 标签）
+              const text = content.textContent || '';
+              // 中文字数（中文按字数算，英文按单词数算）
+              const chineseChars = (text.match(/[\u4e00-\u9fa5]/g) || []).length;
+              const englishWords = (text.match(/[a-zA-Z]+/g) || []).length;
+              // 总字数：中文按1字=1词，英文按1词=1词
+              const totalWords = chineseChars + englishWords;
+              
+              // 阅读速度：中文 300-400 字/分钟，英文 200-250 词/分钟
+              // 这里取平均值：中文 350，英文 225，混合取 280
+              const wordsPerMinute = 280;
+              const minutes = Math.ceil(totalWords / wordsPerMinute);
+              
+              // 显示阅读时间
+              const readTimeDisplay = document.getElementById('read-time-display');
+              if (readTimeDisplay) {
+                if (minutes < 1) {
+                  readTimeDisplay.textContent = '小于 1 分钟';
+                } else if (minutes === 1) {
+                  readTimeDisplay.textContent = '1 分钟';
+                } else {
+                  readTimeDisplay.textContent = minutes + ' 分钟';
+                }
+              }
+            }
+            
+            // ===== 访问量统计（使用本地存储模拟） =====
+            function updateViewCount() {
+              const viewDisplay = document.getElementById('view-count-display');
+              if (!viewDisplay) return;
+              
+              // 获取当前文章的标识（使用 URL）
+              const postKey = 'post_view_' + window.location.pathname;
+              
+              // 从 localStorage 获取访问量
+              let viewCount = localStorage.getItem(postKey);
+              if (viewCount === null) {
+                viewCount = 1;
+              } else {
+                viewCount = parseInt(viewCount) + 1;
+              }
+              localStorage.setItem(postKey, viewCount);
+              
+              // 显示访问量
+              viewDisplay.textContent = viewCount + ' 次';
+            }
+            
+            // ===== 页面加载完成后执行 =====
+            document.addEventListener('DOMContentLoaded', function() {
+              calculateReadTime();
+              updateViewCount();
+            });
+          })();
+      </script>
+
       </article>
     </div>
 
