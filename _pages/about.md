@@ -81,7 +81,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src='images/papers/2024-IJGIS-roadSection.jpg' alt="sym" style="max-height: 200px; width: auto; height: auto;" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2024</div><img src='images/papers/2024-IJGIS-roadSection.jpg' alt="sym" style="max-height: 200px; width: auto; height: auto;" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - Jianbo Tang, Min Deng, `Ju Peng`, et al. Automatic road network selection method considering functional semantic features of roads with graph convolutional networks[J]. *International Journal of Geographical Information Science*, 2024, 38(11): 2403-2432. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
