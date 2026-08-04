@@ -13,7 +13,7 @@ domain: https://pengju-x.github.io/pengju-x
 title                    : "PengJu (彭举)"
 description              : "Spatiotemporal data mining "
 repository               : "pengju-x/pengju.github.io"
-google_scholar_stats_use_cdn : false
+google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -29,6 +29,7 @@ author:
   avatar           : "images/avatar-PengJu.jpg"
   bio              : "华东师范大学(East China Normal University)"
   location         : "上海 (Shanghai), 中国 (China)"
+  Official Accounts: GISerJu
   employer         : #"Spatial Artificial Intelligence"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3YNM1OIAAAAJ"
