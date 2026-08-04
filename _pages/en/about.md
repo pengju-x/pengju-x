@@ -22,7 +22,7 @@ redirect_from:
 I received my Bachelor's and Ph.D. degrees from the School of Geosciences and Info-Physics at **Central South University** in Changsha, Hunan, under the supervision of **Prof. Min Deng**. I have published over 10 academic papers.
  <a href='https://scholar.google.com/citations?user=3YNM1OIAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
 
-📥 Download my [[CV]](/pengju-x/pdf/myCVs/0730-En-CV- Ju Peng.pdf)
+📥 Download my [[CV]](/pdf/myCVs/0730-En-CV- Ju Peng.pdf)
 
 
 My research interests include:
@@ -53,7 +53,7 @@ My research interests include:
 
 ### English 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src='images/IJGIS-2025-ATSTC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src='/images/IJGIS-2025-ATSTC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)
