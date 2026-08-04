@@ -23,19 +23,14 @@ permalink: /blog/
 </ul>
 
 <div class="pagination">
-  <!-- 上一页 -->
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">« 上一页</a>
   {% else %}
     <span class="prev disabled">« 上一页</span>
   {% endif %}
 
-  <!-- 页码信息 -->
-  <span class="page-number">
-    第 {{ paginator.page }} 页 / 共 {{ paginator.total_pages }} 页
-  </span>
+  <span class="page-number">第 {{ paginator.page }} 页 / 共 {{ paginator.total_pages }} 页</span>
 
-  <!-- 下一页 -->
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | relative_url }}" class="next">下一页 »</a>
   {% else %}
