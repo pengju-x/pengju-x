@@ -31,23 +31,23 @@ redirect_from:
 
 
 
-<!-- <span class='anchor' id='-xl'></span> -->
+<span class='anchor' id='-xl'></span>
 
-# 🎓 学历  {#-xl}
+# 🎓 学历 
 - *2021.09 - 2026.06*, <a href="https://www.csu.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> 中南大学 地球科学与信息物理学院, 湖南长沙, 推免直博 
 - *2017.09 - 2021.06*, <a href="https://www.csu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 中南大学 地球科学与信息物理学院, 湖南长沙, 本科
  
 
-<!-- <span class='anchor' id='-xw'></span> -->
+<span class='anchor' id='-xw'></span>
 
-# 🔥 新闻 {#-xw}
+# 🔥 新闻 
 
 - 2025.09.03: 🎉Congratulations! One paper was accepted by JGSA 2025!
 
 
-<!-- <span class='anchor' id='-lwzl'></span> -->
+<span class='anchor' id='-lwzl'></span>
 
-# 📝 论文专利  {#-lwzl}
+# 📝 论文专利  
 
 ### 英文
 
