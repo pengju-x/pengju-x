@@ -22,7 +22,7 @@ redirect_from:
 我本科/博士毕业于湖南长沙的 中南大学 地球科学与信息物理学院，我的导师是邓敏教授。我已经发表 10+ 篇学术论文
  <a href='https://scholar.google.com/citations?user=3YNM1OIAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
  
- 📥 下载我的[[简历]](/pengju-x/pdf/myCVs/0730-En-CV- Ju Peng.pdf)
+ 📥 下载我的[[简历]](/pengju-x/pdf/myCVs/0730-En-CV-JuPeng.pdf)
 
 我的研究领域包括：
 - 时空数据挖掘
