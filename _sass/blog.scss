@@ -340,7 +340,7 @@
   font-size: 0.9rem;
 }
 
-/* ===== 搜索和筛选栏 ===== */
+/* ===== 筛选栏 ===== */
 
 .blog-filters {
   background: #f8f9fa;
@@ -366,53 +366,70 @@
   border-color: #4f7df3;
 }
 
-.tag-filters {
+.filter-section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
 }
 
-.tag-filter-label {
+.filter-label {
   font-weight: 600;
   color: #555;
   margin-right: 0.3rem;
+  min-width: 60px;
 }
 
-.tag-btn {
-  padding: 0.3rem 0.9rem;
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.filter-btn {
+  padding: 0.25rem 0.8rem;
   border: 2px solid #e0e0e0;
   border-radius: 20px;
   background: white;
   color: #555;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
-.tag-btn:hover {
+.filter-btn:hover {
   border-color: #4f7df3;
   color: #4f7df3;
 }
 
-.tag-btn.active {
+.filter-btn.active {
   background: #4f7df3;
   border-color: #4f7df3;
   color: white;
 }
 
-/* 响应式 */
+/* ===== 博客列表中的标签显示 ===== */
+
+.post-tags {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: 0.8rem;
+}
+
 @media (max-width: 768px) {
   .blog-filters {
     padding: 1rem;
   }
-  
-  .tag-filters {
-    gap: 0.3rem;
+  .filter-section {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .tag-btn {
-    font-size: 0.75rem;
+  .filter-label {
+    min-width: auto;
+  }
+  .filter-btn {
+    font-size: 0.7rem;
     padding: 0.2rem 0.6rem;
   }
 }

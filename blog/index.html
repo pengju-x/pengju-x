@@ -3,120 +3,231 @@ layout: default
 title: "博客"
 lang: zh
 permalink: /blog/
-<!-- permalink: /blog/ -->
 ---
 
 <div class="blog-header">
   <h1>📝 全部博客</h1>
-  <p class="blog-subtitle">共 {{ site.posts | size }} 篇文章</p>
+  <p class="blog-subtitle" id="post-count">共 {{ site.posts | size }} 篇文章</p>
 </div>
 
 <!-- 搜索和筛选栏 -->
 <div class="blog-filters">
-  <input type="text" id="search-input" placeholder="🔍 搜索文章标题或内容..." class="search-input">
+  <input type="text" id="search-input" placeholder="🔍 搜索文章标题、内容、分类或标签..." class="search-input">
   
-  <div class="tag-filters">
-    <span class="tag-filter-label">分类：</span>
-    <button class="tag-btn active" data-tag="all">全部</button>
-    {% assign tags = site.posts | map: "categories" | uniq | join: "," | split: "," | uniq %}
-    {% for tag in tags %}
-      {% if tag != "" %}
-        <button class="tag-btn" data-tag="{{ tag | strip }}">{{ tag | strip }}</button>
-      {% endif %}
-    {% endfor %}
+  <div class="filter-section">
+    <span class="filter-label">📂 分类：</span>
+    <div class="filter-buttons" id="category-filters">
+      <button class="filter-btn active" data-filter="category" data-value="all">全部</button>
+      {% assign categories = site.posts | map: "categories" | uniq | join: "," | split: "," | uniq %}
+      {% for cat in categories %}
+        {% if cat != "" %}
+          <button class="filter-btn" data-filter="category" data-value="{{ cat | strip }}">{{ cat | strip }}</button>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="filter-section">
+    <span class="filter-label">🏷️ 标签：</span>
+    <div class="filter-buttons" id="tag-filters">
+      <button class="filter-btn active" data-filter="tag" data-value="all">全部</button>
+      {% assign all_tags = site.posts | map: "tags" | uniq | join: "," | split: "," | uniq %}
+      {% for tag in all_tags %}
+        {% if tag != "" %}
+          <button class="filter-btn" data-filter="tag" data-value="{{ tag | strip }}">{{ tag | strip }}</button>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
 <!-- 博客列表 -->
-<ul class="post-list">
+<ul class="post-list" id="post-list">
   {% for post in site.posts %}
-    <li class="post-item">
+    <li class="post-item" 
+        data-title="{{ post.title | downcase }}" 
+        data-categories="{{ post.categories | join: ',' | downcase }}"
+        data-tags="{{ post.tags | join: ',' | downcase }}"
+        data-content="{{ post.content | strip_html | downcase }}">
       <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
       <h2 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
       <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {% if post.categories %}
+        <span class="post-categories">📂 {{ post.categories | join: ", " }}</span>
+      {% endif %}
+      {% if post.tags %}
+        <span class="post-tags">🏷️ {{ post.tags | join: ", " }}</span>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
+
+<!-- 加载状态提示 -->
+<div id="loading-indicator" style="text-align: center; padding: 1rem; color: #888; display: none;">
+  <span>加载中...</span>
+</div>
+<div id="no-more-posts" style="text-align: center; padding: 1rem; color: #bbb; display: none;">
+  没有更多文章了 🎉
+</div>
 
 <!-- 无结果提示 -->
 <p id="no-results" style="display: none; text-align: center; color: #888; padding: 2rem;">没有找到匹配的博客文章</p>
 
 <script>
   (function() {
+    // ===== 配置 =====
+    const PER_PAGE = 10;
+    
+    // ===== DOM 元素 =====
     const searchInput = document.getElementById('search-input');
-    const tagBtns = document.querySelectorAll('.tag-btn');
+    const categoryBtns = document.querySelectorAll('#category-filters .filter-btn');
+    const tagBtns = document.querySelectorAll('#tag-filters .filter-btn');
     const postItems = document.querySelectorAll('.post-item');
     const postCount = document.getElementById('post-count');
     const noResults = document.getElementById('no-results');
-    let currentTag = 'all';
+    const loadingIndicator = document.getElementById('loading-indicator');
+    const noMorePosts = document.getElementById('no-more-posts');
+    
+    // ===== 状态 =====
+    let selectedCategory = 'all';
+    let selectedTag = 'all';
     let currentKeyword = '';
-
+    let currentPage = 1;
+    let allPosts = [];
+    let filteredPosts = [];
+    
+    // ===== 初始化 =====
+    function init() {
+      allPosts = Array.from(postItems);
+      filteredPosts = allPosts;
+      showPage(1);
+      updateCount();
+      window.addEventListener('scroll', handleScroll);
+    }
+    
+    // ===== 筛选逻辑 =====
     function filterPosts() {
-      let visibleCount = 0;
       const keyword = currentKeyword.toLowerCase().trim();
-
-      postItems.forEach(function(item) {
-        const title = item.dataset.title || '';
-        const content = item.dataset.content || '';
+      
+      filteredPosts = allPosts.filter(function(item) {
+        const title = (item.dataset.title || '').toLowerCase();
+        const content = (item.dataset.content || '').toLowerCase();
+        const categories = (item.dataset.categories || '').split(',');
         const tags = (item.dataset.tags || '').split(',');
-        const matchesTag = currentTag === 'all' || tags.includes(currentTag);
-        const matchesKeyword = keyword === '' || title.includes(keyword) || content.includes(keyword);
-
-        if (matchesTag && matchesKeyword) {
-          item.style.display = '';
-          visibleCount++;
-        } else {
-          item.style.display = 'none';
-        }
+        
+        // 分类匹配
+        const matchesCategory = selectedCategory === 'all' || categories.includes(selectedCategory);
+        // 标签匹配
+        const matchesTag = selectedTag === 'all' || tags.includes(selectedTag);
+        // 关键词匹配
+        const matchesKeyword = keyword === '' || 
+          title.includes(keyword) || 
+          content.includes(keyword) ||
+          categories.some(function(c) { return c.includes(keyword); }) ||
+          tags.some(function(t) { return t.includes(keyword); });
+        
+        return matchesCategory && matchesTag && matchesKeyword;
       });
-
-      // 更新文章数量
-      postCount.textContent = '共 ' + visibleCount + ' 篇文章';
-
-      // 显示/隐藏无结果提示
-      if (visibleCount === 0) {
-        noResults.style.display = 'block';
+      
+      currentPage = 1;
+      showPage(1);
+      updateCount();
+      noMorePosts.style.display = 'none';
+    }
+    
+    // ===== 分页显示 =====
+    function showPage(page) {
+      const start = (page - 1) * PER_PAGE;
+      const end = Math.min(start + PER_PAGE, filteredPosts.length);
+      
+      allPosts.forEach(function(item) {
+        item.style.display = 'none';
+      });
+      
+      for (let i = start; i < end; i++) {
+        if (filteredPosts[i]) {
+          filteredPosts[i].style.display = '';
+        }
+      }
+      
+      if (end >= filteredPosts.length) {
+        if (filteredPosts.length > 0) {
+          noMorePosts.style.display = 'block';
+        }
+        loadingIndicator.style.display = 'none';
       } else {
-        noResults.style.display = 'none';
+        noMorePosts.style.display = 'none';
+        loadingIndicator.style.display = 'block';
       }
     }
-
-    // 搜索输入事件
+    
+    // ===== 加载下一页 =====
+    function loadNextPage() {
+      const totalVisible = Math.min(currentPage * PER_PAGE, filteredPosts.length);
+      if (totalVisible >= filteredPosts.length) {
+        noMorePosts.style.display = 'block';
+        loadingIndicator.style.display = 'none';
+        return;
+      }
+      currentPage++;
+      showPage(currentPage);
+    }
+    
+    // ===== 滚动监听 =====
+    function handleScroll() {
+      const scrollY = window.scrollY || window.pageYOffset;
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+      
+      if (scrollY + windowHeight >= documentHeight - 100) {
+        if (filteredPosts.length > currentPage * PER_PAGE) {
+          loadNextPage();
+        }
+      }
+    }
+    
+    // ===== 更新文章数量 =====
+    function updateCount() {
+      postCount.textContent = '共 ' + filteredPosts.length + ' 篇文章';
+      noResults.style.display = filteredPosts.length === 0 ? 'block' : 'none';
+    }
+    
+    // ===== 更新按钮状态 =====
+    function updateButtonState(btns, activeValue) {
+      btns.forEach(function(btn) {
+        if (btn.dataset.value === activeValue) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+    }
+    
+    // ===== 事件绑定 =====
     searchInput.addEventListener('input', function() {
       currentKeyword = this.value;
       filterPosts();
     });
-
-    // 标签点击事件
-    tagBtns.forEach(function(btn) {
+    
+    categoryBtns.forEach(function(btn) {
       btn.addEventListener('click', function() {
-        // 更新按钮状态
-        tagBtns.forEach(function(b) { b.classList.remove('active'); });
-        this.classList.add('active');
-        currentTag = this.dataset.tag;
+        selectedCategory = this.dataset.value;
+        updateButtonState(categoryBtns, selectedCategory);
         filterPosts();
       });
     });
-
-    // 初始化：显示所有文章
-    filterPosts();
+    
+    tagBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        selectedTag = this.dataset.value;
+        updateButtonState(tagBtns, selectedTag);
+        filterPosts();
+      });
+    });
+    
+    // ===== 启动 =====
+    init();
   })();
 </script>
-<!-- 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">« 上一页</a>
-  {% else %}
-    <span class="prev disabled">« 上一页</span>
-  {% endif %}
-
-  <span class="page-number">第 {{ paginator.page }} 页 / 共 {{ paginator.total_pages }} 页</span>
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}" class="next">下一页 »</a>
-  {% else %}
-    <span class="next disabled">下一页 »</span>
-  {% endif %}
-</div> -->
