@@ -2,18 +2,18 @@
 layout: default
 title: "博客"
 lang: zh
-<!-- permalink: /pengju-x/blog/ -->
-permalink: /blog/
+permalink: /pengju-x/blog/
+<!-- permalink: /blog/ -->
 ---
 
 <div class="blog-header">
   <h1>📝 全部博客</h1>
-  <p class="blog-subtitle">共 {{ paginator.total_posts }} 篇文章</p>
+  <p class="blog-subtitle">共 {{ site.posts | size }} 篇文章</p>
 </div>
 
 
 <ul class="post-list">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
     <li class="post-item">
       <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
       <h2 class="post-title">
@@ -23,8 +23,8 @@ permalink: /blog/
     </li>
   {% endfor %}
 </ul>
-
-<!-- <div class="pagination">
+<!-- 
+<div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">« 上一页</a>
   {% else %}
