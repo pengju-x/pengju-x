@@ -153,8 +153,8 @@ My research interests include:
 
 <span class='anchor' id='-kyxm'></span>
 
-# 📚 Projects
+# 📚 Research Projects
 
-- *Principal Investigator (PI)*, Hunan Provincial Graduate Research Innovation Project: Construction and intelligent recognition of movement patterns and behavior semantics from moving objects trajectories (No. CX20220193, 2022–2024)
+- *Principal Investigator*, Hunan Provincial Graduate Research Innovation Project: Construction and intelligent recognition of movement patterns and behavior semantics from moving objects trajectories (No. CX20220193, 2022–2024)
 I was responsible for project application, design, implementation, and publications.
-- *Principal Investigator (PI*, CSU Graduate Independent Exploration Innovation Project: Same as above (No. 2022zzts105, 2022–2024)
+- *Principal Investigator*, CSU Graduate Independent Exploration Innovation Project: Same as above (No. 2022zzts105, 2022–2024)
