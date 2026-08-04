@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "我的第2篇博客"
+title: "我的第12篇博客"
 date: 2026-08-04
 categories: [随笔]
 tags: [Jekyll, 博客2]
