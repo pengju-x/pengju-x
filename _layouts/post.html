@@ -1,0 +1,85 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div id="main" role="main">
+      {% include sidebar.html %}
+    
+      <article class="page" itemscope itemtype="http://schema.org/BlogPosting">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <div class="page__inner-wrap">
+          
+          <!-- 博客文章专属头部 -->
+          <header>
+            <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+            <p class="page__meta">
+              <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {{ page.date | date: "%Y-%m-%d" }}
+              </time>
+              {% if page.categories %}
+                <span class="page__meta-sep"></span>
+                <span class="page__meta-categories">
+                  分类：{{ page.categories | join: ", " }}
+                </span>
+              {% endif %}
+              {% if page.tags %}
+                <span class="page__meta-sep"></span>
+                <span class="page__meta-tags">
+                  标签：{{ page.tags | join: ", " }}
+                </span>
+              {% endif %}
+            </p>
+          </header>
+
+          <!-- 正文内容 -->
+          <section class="page__content" itemprop="text">
+            {{ content }}
+          </section>
+
+          <!-- 底部导航（上一篇/下一篇） -->
+          <nav class="page__pagination">
+            <ul>
+              <li>
+                {% if page.previous %}
+                  <a href="{{ page.previous.url | relative_url }}" rel="prev">← {{ page.previous.title }}</a>
+                {% endif %}
+              </li>
+              <li>
+                {% if page.next %}
+                  <a href="{{ page.next.url | relative_url }}" rel="next">{{ page.next.title }} →</a>
+                {% endif %}
+              </li>
+            </ul>
+          </nav>
+          
+          <!-- 回到博客列表 -->
+          <div class="page__back-to-list">
+            <a href="{% if page.lang == 'en' %}/en/blog/{% else %}/blog/{% endif %}">← 返回博客列表</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    {% include scripts.html %}
+
+<div class="footer_site">
+<hr/>
+<div class="footer_copyright">
+  © 2026 · Ju Peng 
+  </a>
+</div>
+</div>
+  </body>
+</html>
