@@ -11,7 +11,23 @@ permalink: /blog/
   <p class="blog-subtitle">共 {{ site.posts | size }} 篇文章</p>
 </div>
 
+<!-- 搜索和筛选栏 -->
+<div class="blog-filters">
+  <input type="text" id="search-input" placeholder="🔍 搜索文章标题或内容..." class="search-input">
+  
+  <div class="tag-filters">
+    <span class="tag-filter-label">分类：</span>
+    <button class="tag-btn active" data-tag="all">全部</button>
+    {% assign tags = site.posts | map: "categories" | uniq | join: "," | split: "," | uniq %}
+    {% for tag in tags %}
+      {% if tag != "" %}
+        <button class="tag-btn" data-tag="{{ tag | strip }}">{{ tag | strip }}</button>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
+<!-- 博客列表 -->
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post-item">
@@ -23,6 +39,71 @@ permalink: /blog/
     </li>
   {% endfor %}
 </ul>
+
+<!-- 无结果提示 -->
+<p id="no-results" style="display: none; text-align: center; color: #888; padding: 2rem;">没有找到匹配的博客文章</p>
+
+<script>
+  (function() {
+    const searchInput = document.getElementById('search-input');
+    const tagBtns = document.querySelectorAll('.tag-btn');
+    const postItems = document.querySelectorAll('.post-item');
+    const postCount = document.getElementById('post-count');
+    const noResults = document.getElementById('no-results');
+    let currentTag = 'all';
+    let currentKeyword = '';
+
+    function filterPosts() {
+      let visibleCount = 0;
+      const keyword = currentKeyword.toLowerCase().trim();
+
+      postItems.forEach(function(item) {
+        const title = item.dataset.title || '';
+        const content = item.dataset.content || '';
+        const tags = (item.dataset.tags || '').split(',');
+        const matchesTag = currentTag === 'all' || tags.includes(currentTag);
+        const matchesKeyword = keyword === '' || title.includes(keyword) || content.includes(keyword);
+
+        if (matchesTag && matchesKeyword) {
+          item.style.display = '';
+          visibleCount++;
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      // 更新文章数量
+      postCount.textContent = '共 ' + visibleCount + ' 篇文章';
+
+      // 显示/隐藏无结果提示
+      if (visibleCount === 0) {
+        noResults.style.display = 'block';
+      } else {
+        noResults.style.display = 'none';
+      }
+    }
+
+    // 搜索输入事件
+    searchInput.addEventListener('input', function() {
+      currentKeyword = this.value;
+      filterPosts();
+    });
+
+    // 标签点击事件
+    tagBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        // 更新按钮状态
+        tagBtns.forEach(function(b) { b.classList.remove('active'); });
+        this.classList.add('active');
+        currentTag = this.dataset.tag;
+        filterPosts();
+      });
+    });
+
+    // 初始化：显示所有文章
+    filterPosts();
+  })();
+</script>
 <!-- 
 <div class="pagination">
   {% if paginator.previous_page %}
