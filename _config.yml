@@ -153,8 +153,9 @@ plugins:
   - jekyll-paginate    # paging plugin 
 
 paginate: 8
-paginate_path: /page:num/
+# paginate_path: /page:num/
 # paginate_path: /blog/page:num/
+paginate_path: /pengju-x/blog/page:num/
 # paginate_path: "/blog/p/:num/"
 
 
