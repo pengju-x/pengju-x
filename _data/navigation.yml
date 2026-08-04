@@ -84,6 +84,11 @@ main:
     # url_en: "/en/#-kytm"
     url_en: "/pengju-x/pdf/myCVs/0730-En-CV-JuPeng.pdf"
 
+  - title_zh: "博客"
+    title_en: "Blog"
+    url_zh: "/blog/"          # 中文版博客列表页地址
+    url_en: "/en/blog/"       # 英文版博客列表页地址
+
 # main:
 #   - title_zh: "简介"
 #     title_en: "About Me"
