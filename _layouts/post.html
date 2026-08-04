@@ -17,69 +17,80 @@ layout: compress
     <div id="main" role="main">
       {% include sidebar.html %}
     
-      <article class="page" itemscope itemtype="http://schema.org/BlogPosting">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="post__inner-wrap">
           
-          <!-- 博客文章专属头部 -->
-          <header>
-            <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
-            <p class="page__meta">
-              <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                {{ page.date | date: "%Y-%m-%d" }}
-              </time>
-              {% if page.categories %}
-                <span class="page__meta-sep"></span>
-                <span class="page__meta-categories">
-                  分类：{{ page.categories | join: ", " }}
-                </span>
-              {% endif %}
+          <!-- 🏷️ 返回按钮 + 分类标签 -->
+          <div class="post__top-bar">
+            <a href="{% if page.lang == 'en' %}/blog/{% else %}/blog/{% endif %}" class="post__back-btn">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="8" x2="4" y2="8"/><polyline points="8 12 4 8 8 4"/></svg>
+              返回博客列表
+            </a>
+            {% if page.categories %}
+              <span class="post__category-badge">{{ page.categories | first }}</span>
+            {% endif %}
+          </div>
+
+          <!-- 📝 文章头部 -->
+          <header class="post__header">
+            <h1 class="post__title" itemprop="headline">{{ page.title }}</h1>
+            <div class="post__meta">
+              <span class="post__date">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                {{ page.date | date: "%Y年%m月%d日" }}
+              </span>
               {% if page.tags %}
-                <span class="page__meta-sep"></span>
-                <span class="page__meta-tags">
-                  标签：{{ page.tags | join: ", " }}
+                <span class="post__tags">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg>
+                  {% for tag in page.tags %}
+                    <span class="post__tag">{{ tag }}</span>
+                  {% endfor %}
                 </span>
               {% endif %}
-            </p>
+            </div>
           </header>
 
-          <!-- 正文内容 -->
-          <section class="page__content" itemprop="text">
+          <!-- 📄 正文内容 -->
+          <div class="post__content" itemprop="text">
             {{ content }}
-          </section>
-
-          <!-- 底部导航（上一篇/下一篇） -->
-          <nav class="page__pagination">
-            <ul>
-              <li>
-                {% if page.previous %}
-                  <a href="{{ page.previous.url | relative_url }}" rel="prev">← {{ page.previous.title }}</a>
-                {% endif %}
-              </li>
-              <li>
-                {% if page.next %}
-                  <a href="{{ page.next.url | relative_url }}" rel="next">{{ page.next.title }} →</a>
-                {% endif %}
-              </li>
-            </ul>
-          </nav>
-          
-          <!-- 回到博客列表 -->
-          <div class="page__back-to-list">
-            <a href="{% if page.lang == 'en' %}/blog/{% else %}/blog/{% endif %}">← 返回博客列表</a>
           </div>
+
+          <!-- 🔗 底部导航（上一篇/下一篇） -->
+          <nav class="post__navigation">
+            <div class="post__nav-item post__nav-item--prev">
+              {% if page.previous %}
+                <span class="post__nav-label">← 上一篇</span>
+                <a href="{{ page.previous.url | relative_url }}" class="post__nav-link">{{ page.previous.title }}</a>
+              {% endif %}
+            </div>
+            <div class="post__nav-item post__nav-item--next">
+              {% if page.next %}
+                <span class="post__nav-label">下一篇 →</span>
+                <a href="{{ page.next.url | relative_url }}" class="post__nav-link">{{ page.next.title }}</a>
+              {% endif %}
+            </div>
+          </nav>
+
+          <!-- 📌 回到顶部 -->
+          <div class="post__back-to-top">
+            <a href="#top" class="post__top-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+              回到顶部
+            </a>
+          </div>
+
         </div>
       </article>
     </div>
 
     {% include scripts.html %}
 
-<div class="footer_site">
-<hr/>
-<div class="footer_copyright">
-  © 2026 · Ju Peng 
-  </a>
-</div>
-</div>
+    <div class="footer_site">
+      <hr/>
+      <div class="footer_copyright">
+        © {{ site.time | date: '%Y' }} · Ju Peng
+      </div>
+    </div>
+
   </body>
 </html>
