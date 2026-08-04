@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "我的第2篇博客"
-date: 2026-07-014
+date: 2026-07-14
 categories: [随笔]
 tags: [Jekyll, 博客2]
 lang: zh
