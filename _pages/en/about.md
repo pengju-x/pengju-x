@@ -70,7 +70,7 @@ My research interests include:
 [[Preview]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf) [[Download]](/pengju-x/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf)
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src="{{ '/images/2024-IJGIS-roadSection.jpg' | relative_url }}" alt="sym" style="max-height: 200px; width: auto; height: auto;"width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src="{{ '/images/2024-IJGIS-roadSection.jpg' | relative_url }}" alt="sym" style="max-height: 200px; width: auto; height: auto;" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - Jianbo Tang, Min Deng, `Ju Peng`, et al. Automatic road network selection method considering functional semantic features of roads with graph convolutional networks[J]. *International Journal of Geographical Information Science*, 2024, 38(11): 2403-2432. (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)
