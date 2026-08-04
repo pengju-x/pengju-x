@@ -31,7 +31,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
-  gem "jekyll-paginate-v2"   # paging plugin 
+  gem "jekyll-paginate"   # paging plugin 
 end
 
 
