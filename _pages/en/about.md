@@ -22,7 +22,7 @@ redirect_from:
 I received my Bachelor's and Ph.D. degrees from the School of Geosciences and Info-Physics at **Central South University** in Changsha, Hunan, under the supervision of **Prof. Min Deng**. I have published over 10 academic papers.
  <a href='https://scholar.google.com/citations?user=3YNM1OIAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
 
-📥 Download my [[CV]](pengju-x/pdf/myCVs/0730-En-CV- Ju Peng.pdf) [[下载]](pengju-x/pdf/myCVs/0730-En-CV- Ju Peng.pdf)
+📥 Download my [[CV]](/pengju-x/pdf/myCVs/0730-En-CV- Ju Peng.pdf)
 
 
 My research interests include:
