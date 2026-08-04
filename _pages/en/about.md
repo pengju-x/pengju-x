@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 关于我 {#about-me}
+
 我本科/博士毕业于湖南长沙的 中南大学 地球科学与信息物理学院，我的导师是邓敏教授。我已经发表 10+ 篇学术论文
  <a href='https://scholar.google.com/citations?user=3YNM1OIAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
 
@@ -29,23 +31,23 @@ redirect_from:
 
 
 
-<span class='anchor' id='-xl'></span>
+<!-- <span class='anchor' id='-xl'></span> -->
 
-# 🎓 学历
+# 🎓 学历  {#-xl}
 - *2021.09 - 2026.06*, <a href="https://www.csu.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> 中南大学 地球科学与信息物理学院, 湖南长沙, 推免直博 
 - *2017.09 - 2021.06*, <a href="https://www.csu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 中南大学 地球科学与信息物理学院, 湖南长沙, 本科
  
 
-<span class='anchor' id='-xw'></span>
+<!-- <span class='anchor' id='-xw'></span> -->
 
-# 🔥 新闻
+# 🔥 新闻 {#-xw}
 
 - 2025.09.03: 🎉Congratulations! One paper was accepted by JGSA 2025!
 
 
-<span class='anchor' id='-lwzl'></span>
+<!-- <span class='anchor' id='-lwzl'></span> -->
 
-# 📝 论文专利
+# 📝 论文专利  {#-lwzl}
 
 ### 英文
 
