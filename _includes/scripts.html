@@ -1,4 +1,25 @@
-<script src="assets/js/main.min.js"></script>
+<script src="/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
+<!-- <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 为所有以 "#" 开头的链接添加点击监听器
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+      anchor.addEventListener('click', function(e) {
+        // 获取目标元素的ID（去掉#号）
+        var targetId = this.getAttribute('href').substring(1);
+        // 在页面中查找目标元素
+        var targetElement = document.getElementById(targetId);
+        
+        // 如果找到了目标元素
+        if (targetElement) {
+          e.preventDefault(); // 阻止浏览器的默认跳转行为
+          // 平滑滚动到目标元素
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        // 如果没找到目标元素，则允许浏览器执行默认行为（比如跳转到首页）
+      });
+    });
+  });
+</script> -->
