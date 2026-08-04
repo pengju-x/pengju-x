@@ -53,7 +53,7 @@ My research interests include:
 
 ### English 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src='/images/IJGIS-2025-ATSTC.jpg  | relative_url ' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src='/images/papes/IJGIS-2025-ATSTC.jpg  | relative_url ' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)
