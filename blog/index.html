@@ -2,18 +2,15 @@
 layout: default
 title: "博客"
 lang: zh
-permalink: /pengju-x/blog/
-<!-- permalink: /blog/ -->
+<!-- permalink: /pengju-x/blog/ -->
+permalink: /blog/
 ---
 
 <div class="blog-header">
   <h1>📝 全部博客</h1>
   <p class="blog-subtitle">共 {{ paginator.total_posts }} 篇文章</p>
 </div>
-<!-- 调试信息（测试完成后删除） -->
-<p style="background: #f0f0f0; padding: 10px; border-radius: 4px;">
-  当前第 {{ paginator.page }} 页，共 {{ paginator.total_pages }} 页，共 {{ paginator.total_posts }} 篇文章
-</p>
+
 
 <ul class="post-list">
   {% for post in paginator.posts %}
@@ -27,7 +24,7 @@ permalink: /pengju-x/blog/
   {% endfor %}
 </ul>
 
-<div class="pagination">
+<!-- <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">« 上一页</a>
   {% else %}
@@ -41,4 +38,4 @@ permalink: /pengju-x/blog/
   {% else %}
     <span class="next disabled">下一页 »</span>
   {% endif %}
-</div>
+</div> -->
