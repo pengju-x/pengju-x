@@ -10,7 +10,6 @@ permalink: /blog/index.html
   <p class="blog-subtitle">共 {{ paginator.total_posts }} 篇文章</p>
 </div>
 
-<!-- 博客列表 -->
 <ul class="post-list">
   {% for post in paginator.posts %}
     <li class="post-item">
@@ -18,19 +17,11 @@ permalink: /blog/index.html
       <h2 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
-      {% if post.excerpt %}
-        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      {% endif %}
-      {% if post.categories %}
-        <span class="post-categories">
-          📂 {{ post.categories | join: ", " }}
-        </span>
-      {% endif %}
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
     </li>
   {% endfor %}
 </ul>
 
-<!-- 分页导航 -->
 <div class="pagination">
   <!-- 上一页 -->
   {% if paginator.previous_page %}
