@@ -153,8 +153,8 @@ plugins:
   - jekyll-paginate    # paging plugin 
 
 paginate: 10
-paginate_path: "/blog/page:num/"
-# paginate_path: "/blog/p/:num/"
+# paginate_path: "/blog/page:num/"
+paginate_path: "/blog/p/:num/"
 
 
 # mimic GitHub Pages with --safe
