@@ -9,6 +9,10 @@ permalink: /blog/
   <h1>📝 全部博客</h1>
   <p class="blog-subtitle">共 {{ paginator.total_posts }} 篇文章</p>
 </div>
+<!-- 调试信息（测试完成后删除） -->
+<p style="background: #f0f0f0; padding: 10px; border-radius: 4px;">
+  当前第 {{ paginator.page }} 页，共 {{ paginator.total_pages }} 页，共 {{ paginator.total_posts }} 篇文章
+</p>
 
 <ul class="post-list">
   {% for post in paginator.posts %}
