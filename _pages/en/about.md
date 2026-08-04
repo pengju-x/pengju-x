@@ -62,8 +62,6 @@ My research interests include:
 </div>
 </div>
 
-- `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)
-[[网页]](https://doi.org/10.1080/13658816.2025.2478463)[[Preview]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf) [[Download]](/pengju-x/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf)
 
 - `Ju Peng`, Min Deng, Jianbo Tang*, et al. A movement-aware measure for trajectory similarity and its application for ride-sharing path extraction in a road network[J]. *International Journal of Geographical Information Science*, 2024, 38(9): 1703-1727. (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)[[Web]](https://doi.org/10.1080/13658816.2024.235369)
 [[Preview]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/2024_IJGIS_A_movement-aware_measure_for_trajectory_similarity_and_its_application_for_ride-sharing_path_extraction_in_a_road_network.pdf) [[Download]](/pengju-x/pdf/2024/2024_IJGIS_A_movement-aware_measure_for_trajectory_similarity_and_its_application_for_ride-sharing_path_extraction_in_a_road_network.pdf)

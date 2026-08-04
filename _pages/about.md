@@ -53,7 +53,7 @@ redirect_from:
 
 ### 英文
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sens. Actuators Phys. 2021</div><img src='images/IJGIS-2025-ATSTC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sens. Actuators Phys. 2021</div><img src='images/papers/IJGIS-2025-ATSTC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
@@ -62,14 +62,18 @@ redirect_from:
 </div>
 </div>
 
-- `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
-[[网页]](https://doi.org/10.1080/13658816.2025.2478463)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf) [[下载]](/pengju-x/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sens. Actuators Phys. 2021</div><img src='images/papers/IJGIS-2025-movement.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Jianbo Tang, Min Deng, `Ju Peng*`, et al. How to describe spatiotemporal patterns of moving objects: A new classification framework[J]. *International Journal of Geographical Information Science*, 2025: 1-43.  (SCI, JCR Q1, 中科院1区TOP, IF=5.1)[[网页]](https://doi.org/10.1080/13658816.2025.2548819)
+[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf) [[下载]](/pengju-x/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf)
+
+</div>
+</div>
 
 - `Ju Peng`, Min Deng, Jianbo Tang*, et al. A movement-aware measure for trajectory similarity and its application for ride-sharing path extraction in a road network[J]. *International Journal of Geographical Information Science*, 2024, 38(9): 1703-1727. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)[[网页]](https://doi.org/10.1080/13658816.2024.235369)
 [[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/2024_IJGIS_A_movement-aware_measure_for_trajectory_similarity_and_its_application_for_ride-sharing_path_extraction_in_a_road_network.pdf) [[下载]](/pengju-x/pdf/2024/2024_IJGIS_A_movement-aware_measure_for_trajectory_similarity_and_its_application_for_ride-sharing_path_extraction_in_a_road_network.pdf)
 
-- Jianbo Tang, Min Deng, `Ju Peng*`, et al. How to describe spatiotemporal patterns of moving objects: A new classification framework[J]. *International Journal of Geographical Information Science*, 2025: 1-43.  (SCI, JCR Q1, 中科院1区TOP, IF=5.1)[[网页]](https://doi.org/10.1080/13658816.2025.2548819)
-[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf) [[下载]](/pengju-x/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf)
 
 - Jianbo Tang, Min Deng, `Ju Peng`, et al. Automatic road network selection method considering functional semantic features of roads with graph convolutional networks[J]. *International Journal of Geographical Information Science*, 2024, 38(11): 2403-2432. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
 [[网页]](https://doi.org/10.1080/13658816.2024.238719)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/2024_IJGIS_Automatic_road_network_selection_method_considering_functional_semantic_features_of_roads_with_graph_convolutional_networks.pdf) [[下载]](/pengju-x/pdf/2024/2024_IJGIS_Automatic_road_network_selection_method_considering_functional_semantic_features_of_roads_with_graph_convolutional_networks.pdf)
