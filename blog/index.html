@@ -10,9 +10,19 @@ permalink: /blog/
   <p class="blog-subtitle">共 {{ paginator.total_posts }} 篇文章</p>
 </div>
 <!-- 调试信息（测试完成后删除） -->
-<p style="background: #f0f0f0; padding: 10px; border-radius: 4px;">
-  当前第 {{ paginator.page }} 页，共 {{ paginator.total_pages }} 页，共 {{ paginator.total_posts }} 篇文章
-</p>
+<div style="background: #f0f0f0; padding: 15px; border-radius: 4px; margin: 20px 0;">
+  <h3>🔍 调试信息</h3>
+  <ul>
+    <li>当前页面路径：{{ page.path }}</li>
+    <li>当前 URL：{{ page.url }}</li>
+    <li>当前页码：{{ paginator.page }}</li>
+    <li>总页数：{{ paginator.total_pages }}</li>
+    <li>文章总数：{{ paginator.total_posts }}</li>
+    <li>每页文章数：{{ paginator.per_page }}</li>
+    <li>当前页文章数：{{ paginator.posts | size }}</li>
+    <li>是否为第一页：{% if paginator.page == 1 %}是{% else %}否{% endif %}</li>
+  </ul>
+</div>
 
 <ul class="post-list">
   {% for post in paginator.posts %}
