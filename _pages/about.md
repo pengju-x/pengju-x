@@ -53,7 +53,7 @@ redirect_from:
 
 ### 英文
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sens. Actuators Phys. 2021</div><img src='images/papers/2025-IJGIS-ATSTC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src='images/papers/2025-IJGIS-ATSTC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
