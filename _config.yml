@@ -140,7 +140,7 @@ sass:
 
 # Outputting
 # permalink: /:categories/:title/
-permalink: /:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
