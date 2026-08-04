@@ -86,7 +86,7 @@ main:
 
   - title_zh: "博客"
     title_en: "Blog"
-    url_zh: "/pengju-x/blog/"          # 中文版博客列表页地址
+    url_zh: "/blog/"          # 中文版博客列表页地址
     url_en: "/en/blog/"       # 英文版博客列表页地址
 
 # main:
