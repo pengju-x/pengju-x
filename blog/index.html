@@ -11,16 +11,27 @@ pagination:
   title_suffix: ' - 第 :num 页'
 ---
 
-<h1>📝 全部博客</h1>
+<div class="blog-header">
+  <h1>📝 全部博客</h1>
+  <p class="blog-subtitle">共 {{ paginator.total_posts }} 篇文章</p>
+</div>
 
+<!-- 博客列表 -->
 <ul class="post-list">
   {% for post in paginator.posts %}
-    <li>
+    <li class="post-item">
       <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-      <h2>
+      <h2 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
-      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {% if post.excerpt %}
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {% endif %}
+      {% if post.categories %}
+        <span class="post-categories">
+          📂 {{ post.categories | join: ", " }}
+        </span>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
@@ -29,11 +40,17 @@ pagination:
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">« 上一页</a>
+  {% else %}
+    <span class="prev disabled">« 上一页</span>
   {% endif %}
 
-  <span class="page-number">第 {{ paginator.page }} 页 / 共 {{ paginator.total_pages }} 页</span>
+  <span class="page-number">
+    第 {{ paginator.page }} 页 / 共 {{ paginator.total_pages }} 页
+  </span>
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | relative_url }}" class="next">下一页 »</a>
+  {% else %}
+    <span class="next disabled">下一页 »</span>
   {% endif %}
 </div>
