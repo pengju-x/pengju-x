@@ -47,9 +47,9 @@ My research interests include:
 
 # 📝 Publications 
 
-### 英文
+### English 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src='/images/IJGIS-2025-ATSTC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src='images/IJGIS-2025-ATSTC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)
@@ -88,7 +88,7 @@ My research interests include:
 [[Web]](https://doi.org/10.3390/app15169107)[[Preview]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_AppliedSciences_STACS_a_spatiotemporal_adaptive_clustering_segmentation_algorithm_for_fishing_activity_recognition.pdf) [[Download]](/pengju-x/pdf/2025/2025_AppliedSciences_STACS_a_spatiotemporal_adaptive_clustering_segmentation_algorithm_for_fishing_activity_recognition.pdf)
 
 
-### 中文
+### Chinese
 
 - 唐建波, 胡致远, `彭举*`, 等. 融合视觉特征与运动特征的众源轨迹数据道路交叉口识别方法[J]. *测绘学报*, 2025, 54(01): 1001-1595. (EI, Geographical Society T1 Journal)
 [[Web]](http://dx.doi.org//10.11947/j.AGCS.2025.20240101)
