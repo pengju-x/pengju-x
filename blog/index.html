@@ -11,7 +11,7 @@ permalink: /blog/index.html
 </div>
 
 <ul class="post-list">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <li class="post-item">
       <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
       <h2 class="post-title">
@@ -22,7 +22,7 @@ permalink: /blog/index.html
   {% endfor %}
 </ul>
 
-<!-- <div class="pagination">
+<div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">« 上一页</a>
   {% else %}
@@ -36,4 +36,4 @@ permalink: /blog/index.html
   {% else %}
     <span class="next disabled">下一页 »</span>
   {% endif %}
-</div> -->
+</div>
