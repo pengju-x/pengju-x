@@ -17,8 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 关于我
+
 我本科/博士毕业于湖南长沙的 中南大学 地球科学与信息物理学院，我的导师是邓敏教授。我已经发表 10+ 篇学术论文
  <a href='https://scholar.google.com/citations?user=3YNM1OIAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
+ 
+ 📥 Download my [[CV]](pengju-x/pdf/myCVs/0730-En-CV- Ju Peng.pdf) [[下载]](pengju-x/pdf/myCVs/0730-En-CV- Ju Peng.pdf)
 
 我的研究领域包括：
 - 时空数据挖掘
@@ -51,9 +55,6 @@ redirect_from:
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sens. Actuators Phys. 2021</div><img src='images/IJGIS-2025-ATSTC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
--	`Jian Tang`, Rongbiao Wang, Bocheng Liu, Yihua Kang. A novel magnetic flux leakage method based on the ferromagnetic lift-off layer with through groove. *Sensors and Actuators A: Physical*. 2021: 113091. (JCR:Q1; IF:4.291)  
-[[网页]](https://dx.doi.org/10.1016/j.sna.2021.113091) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2021-A%20novel%20magnetic%20flux%20leakage%20method%20based%20on%20the%20ferromagnetic%20lift-off%20layer.pdf) [[下载]](/pdf/TangJ-2021-A%20novel%20magnetic%20flux%20leakage%20method%20based%20on%20the%20ferromagnetic%20lift-off%20layer.pdf)
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, 中科院1区TOP, IF=5.1)
 [[网页]](https://doi.org/10.1080/13658816.2025.2478463)[[预览]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf) [[下载]](/pengju-x/pdf/2025/2025_IJGIS_A_two-stage_method_for_detecting_trajectory_clusters_of_different_densities_with_peak_trajectories_identification.pdf)
