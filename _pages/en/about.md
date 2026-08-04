@@ -62,6 +62,7 @@ My research interests include:
 </div>
 </div>
 
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src="{{ '/images/2025-IJGIS-movement.jpg' | relative_url }}" alt="sym" style="max-height: 200px; width: auto; height: auto;" width="100%"></div></div><div class='paper-box-text' markdown="1">
 
 - Jianbo Tang, Min Deng, `Ju Peng*`, et al. How to describe spatiotemporal patterns of moving objects: A new classification framework[J]. *International Journal of Geographical Information Science*, 2025: 1-43.  (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)[[Web]](https://doi.org/10.1080/13658816.2025.2548819)
