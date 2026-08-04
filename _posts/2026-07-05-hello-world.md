@@ -5,6 +5,7 @@ date: 2026-07-05
 categories: [随笔]
 tags: [Jekyll, 博客2]
 lang: zh
+comments: true
 ---
 
 这是我的第二篇博客文章内容。

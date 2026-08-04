@@ -83,6 +83,13 @@ layout: compress
       </article>
     </div>
 
+        <!-- ===== 评论区域 ===== -->
+    <div class="post-comments">
+      {% if page.comments != false %}
+        {% include giscus.html %}
+      {% endif %}
+    </div>
+
     {% include scripts.html %}
 
     <div class="footer_site">
