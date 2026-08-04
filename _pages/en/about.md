@@ -53,7 +53,7 @@ My research interests include:
 
 ### English 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src='/images/papes/IJGIS-2025-ATSTC.jpg  | relative_url ' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src="{{ '/images/2025-IJGIS-ATSTC.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Ju Peng`, Jianbo Tang*, Min Deng, et al. A two-stage method for detecting trajectory clusters of different densities with peak trajectories identification[J]. *International Journal of Geographical Information Science*, 2025: 1-34. (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)
@@ -69,8 +69,16 @@ My research interests include:
 - Jianbo Tang, Min Deng, `Ju Peng*`, et al. How to describe spatiotemporal patterns of moving objects: A new classification framework[J]. *International Journal of Geographical Information Science*, 2025: 1-43.  (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)[[Web]](https://doi.org/10.1080/13658816.2025.2548819)
 [[Preview]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf) [[Download]](/pengju-x/pdf/2025/2025_IJGIS_How_to_describe_spatiotemporal_patterns_of_moving_objects_a_new_classification_framework.pdf)
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJGIS. 2025</div><img src="{{ '/images/2024-IJGIS-roadSection.jpg' | relative_url }}" alt="sym" style="max-height: 200px; width: auto; height: auto;"width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 - Jianbo Tang, Min Deng, `Ju Peng`, et al. Automatic road network selection method considering functional semantic features of roads with graph convolutional networks[J]. *International Journal of Geographical Information Science*, 2024, 38(11): 2403-2432. (SCI, JCR Q1, CAS Q1 TOP, IF=5.1)
 [[Web]](https://doi.org/10.1080/13658816.2024.238719)[[Preview]](https://github.com/pengju-x/pengju-x/blob/master/pdf/2024/2024_IJGIS_Automatic_road_network_selection_method_considering_functional_semantic_features_of_roads_with_graph_convolutional_networks.pdf) [[Download]](/pengju-x/pdf/2024/2024_IJGIS_Automatic_road_network_selection_method_considering_functional_semantic_features_of_roads_with_graph_convolutional_networks.pdf)
+
+</div>
+</div>
+
 
 - Min Deng (Supervisor), `Ju Peng`, Jianbo Tang*, et al. Spatio-temporal Pattern Mining of Moving Objects: Concepts, Methods, and Challenges[J]. *Journal of Geovisualization and Spatial Analysis*, 2025, 9(2): 1-32. (ESCI, JCR Q1, CAS Q1 TOP, IF=6.8)
 [[Web]](https://doi.org/10.1007/s41651-025-00236-1)
